@@ -1,0 +1,32 @@
+{
+  "name": "POS-ws",
+  "version": "1.0.0",
+  "description": "POS-ws is a retail management system and free service for purchase and sales management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rihernandez/POS-ws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rihernandez/POS-ws/issues"
+  },
+  "homepage": "https://github.com/rihernandez/POS-ws#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.7",
+    "@types/morgan": "^1.9.1",
+    "typescript": "^3.9.7"
+  }
+}
